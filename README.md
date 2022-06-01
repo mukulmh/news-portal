@@ -6,6 +6,17 @@ i) Flask <br>
 ii) SqLite <br>
 iii) HTML <br>
 iv) CSS <br>
+## How to run
+Step 1: Clone the repository and extract/unzip the folder <br>
+Step 2: open terminal inside the newsportal folder and create a virtual envirorment by running this command : python -m venv venv <br>
+Step 3: Activate virtual environment by runing this command: venv\Scripts\activate <br>
+Step 4: Install required packages by runnig this command : pip install -r requirements.txt <br>
+Step 5: cd into parent folder by cd.. command <br>
+Step 6: run these commands to set project and set development mode: <br>
+set FLASK_APP=newsportal <br>
+set FLASK_ENV=development <br>
+Step 7: Define and access Database by running this command : flask init-db (there will be a folder named instances where database file will be stored)<br>
+Step 8: Finaly run the project by flask run. there will be a link given which you will have to copy and paste into the browser.
 
 ## Newsportal Screenshots
 ### Registration
